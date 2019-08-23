@@ -38,6 +38,9 @@ class ViewController: UIViewController {
     @IBOutlet var temperatureLabel: UILabel!
     @IBOutlet var uvBackground: UIView!
     @IBOutlet var uvLabel: UILabel!
+    @IBOutlet var backgroundView: Background!
+    @IBOutlet var weatherView: UIView!
+    @IBOutlet var weatherLabel: UILabel!
     
     var button: HamburgerButton! = nil
     @IBOutlet var buttonView: UIView!
@@ -239,6 +242,8 @@ class ViewController: UIViewController {
                                 DispatchQueue.main.sync {
                                     self.temperatureLabel.text = "\(self.weather!.temperature)°"
                                     self.uvLabel.text = "UV \(self.weather!.uvIndex)"
+                                    self.weatherLabel.text! = "It is \(self.weather!.summary) right now"
+                                    
                                     switch self.weather!.uvIndex {
                                     case 0: self.uvBackground.backgroundColor = UIColor.systemGreen
                                     case 1: self.uvBackground.backgroundColor = UIColor.systemGreen
@@ -257,7 +262,7 @@ class ViewController: UIViewController {
                                     }
                                     switch self.weather!.icon {
                                     case "clear-day":
-                                        self.weatherIcon.image = UIImage(systemName: "sun.max")
+                                        self.weatherIcon.image = UIImage(systemName: "sun.max.fill")
                                         self.weatherIcon.tintColor = UIColor.systemYellow
                                     case "clear-night":
                                         self.weatherIcon.image = UIImage(systemName: "moon.fill")
@@ -281,8 +286,8 @@ class ViewController: UIViewController {
                                         self.weatherIcon.image = UIImage(systemName: "cloud")
                                         self.weatherIcon.tintColor = UIColor.systemGray
                                     case "partly-cloudy-day":
-                                        self.weatherIcon.image = UIImage(systemName: "cloud.sun")
-                                        self.weatherIcon.tintColor = UIColor.systemYellow
+                                        self.weatherIcon.image = UIImage(systemName: "cloud.sun.fill")
+                                        self.weatherIcon.tintColor = UIColor.white
                                     case "partly-cloudy-night":
                                         self.weatherIcon.image = UIImage(systemName: "cloud.moon")
                                         self.weatherIcon.tintColor = UIColor.systemBlue

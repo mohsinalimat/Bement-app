@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B7DFA2EE2E299A8CD210C45 /* Pods_Bement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E812BD6DAEB32A36D8B79411 /* Pods_Bement.framework */; };
+		B24E9F7F23103B00007740C5 /* MyStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24E9F7E23103B00007740C5 /* MyStyleKit.swift */; };
+		B24E9F8123103B99007740C5 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24E9F8023103B99007740C5 /* Background.swift */; };
 		B2824B48230DEE2A00CF4420 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B2824B47230DEE2A00CF4420 /* SwiftyJSON */; };
 		B2824B4B230DEE6400CF4420 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = B2824B4A230DEE6400CF4420 /* FeedKit */; };
 		B2824B86230DEF0300CF4420 /* WeatherStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2824B4F230DEEFF00CF4420 /* WeatherStore.swift */; };
@@ -61,6 +63,8 @@
 /* Begin PBXFileReference section */
 		7BEF7D1F4C2CF9A15C269509 /* Pods-Bement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bement.release.xcconfig"; path = "Target Support Files/Pods-Bement/Pods-Bement.release.xcconfig"; sourceTree = "<group>"; };
 		8935B9066163E6CA8BEB2838 /* Pods-Bement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bement.debug.xcconfig"; path = "Target Support Files/Pods-Bement/Pods-Bement.debug.xcconfig"; sourceTree = "<group>"; };
+		B24E9F7E23103B00007740C5 /* MyStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStyleKit.swift; sourceTree = "<group>"; };
+		B24E9F8023103B99007740C5 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		B2824B4F230DEEFF00CF4420 /* WeatherStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherStore.swift; sourceTree = "<group>"; };
 		B2824B51230DEF0000CF4420 /* StoryboardSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSupport.swift; sourceTree = "<group>"; };
 		B2824B52230DEF0000CF4420 /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
@@ -388,6 +392,8 @@
 				B29E4927230DEC3F007DB33A /* Info.plist */,
 				B29E491F230DEC37007DB33A /* Bement.xcdatamodeld */,
 				B2824B6F230DEF0200CF4420 /* Bement Buildings.mlmodel */,
+				B24E9F7E23103B00007740C5 /* MyStyleKit.swift */,
+				B24E9F8023103B99007740C5 /* Background.swift */,
 			);
 			path = Bement;
 			sourceTree = "<group>";
@@ -523,6 +529,7 @@
 			files = (
 				B2824BA8230DEF0300CF4420 /* ClagettViewController.swift in Sources */,
 				B2824BA2230DEF0300CF4420 /* ViewController.swift in Sources */,
+				B24E9F7F23103B00007740C5 /* MyStyleKit.swift in Sources */,
 				B2824B92230DEF0300CF4420 /* Tools.swift in Sources */,
 				B2824B8C230DEF0300CF4420 /* InstagramTableViewController.swift in Sources */,
 				B2824B99230DEF0300CF4420 /* UIViewController.swift in Sources */,
@@ -543,6 +550,7 @@
 				B2824B8F230DEF0300CF4420 /* FacebookWithImageTableViewCell.swift in Sources */,
 				B2824BB1230DEF0300CF4420 /* LunchViewController.swift in Sources */,
 				B2824B86230DEF0300CF4420 /* WeatherStore.swift in Sources */,
+				B24E9F8123103B99007740C5 /* Background.swift in Sources */,
 				B2824BAC230DEF0300CF4420 /* CameraPageViewController.swift in Sources */,
 				B2824BA7230DEF0300CF4420 /* CalendersTableViewController.swift in Sources */,
 				B2824BB0230DEF0300CF4420 /* LoginViewController.swift in Sources */,
